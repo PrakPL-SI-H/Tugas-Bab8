@@ -9,6 +9,6 @@ package bab8;
  *
  * @author Prasetyo
  */
-public class Piano {
+public class Piano extends AlatMusicTekan{
     
 }
