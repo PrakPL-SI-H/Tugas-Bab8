@@ -9,15 +9,18 @@ package bab8;
  *
  * @author Prasetyo
  */
-public class Terompet extends AlatMusicTiup implements InterfaceAlatMusic{
+public class Terompet extends AlatMusicTiup{
+    String nama = "Terompet";
+    @Override
     public void caraMemainkan(){
         System.out.println("Di Tiup");
     }
     @Override
     public void NamaAlatMusic(){
-    
+        System.out.println("Nama = "+nama);
     }
-    @Override
-    public void berbunyi(){}
+    public void berbunyi(String nada){
+        System.out.println("Mempunyai nada = "+nada);
+    }
 }
 
