@@ -1,21 +1,30 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package bab8;
 
-/**
- *
- * @author Prasetyo
- */
+import java.util.Scanner;
 public class Bab8 {
-
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        // TODO code application logic here
+        Gitar main = new Gitar();
+        Biola main2 = new Biola();
+        Drum main3 = new Drum();
+        Piano main4 = new Piano();
+        Terompet main5 = new Terompet();
+        int pil;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Menu");
+        System.out.println("1.Pilihan Alat musik");
+        System.out.println("2.Cara Memainkan");
+        System.out.println("3.Nada yang Keluar");
+        System.out.println("0.Keluar");
+        System.out.println("Masukkan pilihan ");
+        pil = in.nextInt();
+        switch(pil){
+            case 1 :
+                    
+                    
+                    
+            case 2 :
+            case 3 :
+        }
     }
     
 }
