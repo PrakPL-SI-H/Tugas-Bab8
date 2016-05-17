@@ -9,6 +9,6 @@ package bab8;
  *
  * @author Prasetyo
  */
-public class Gitar {
+public class Gitar extends AlatMusicPetik{
     
 }
