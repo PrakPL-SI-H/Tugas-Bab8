@@ -9,6 +9,6 @@ package bab8;
  *
  * @author Prasetyo
  */
-public class Biola {
+public class Biola extends AlatMusicGesek{
     
 }
