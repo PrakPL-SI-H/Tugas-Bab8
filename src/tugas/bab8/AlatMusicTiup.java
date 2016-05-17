@@ -1,5 +1,9 @@
 package bab8;
 public abstract class AlatMusicTiup implements InterfaceAlatMusic{
+    public void AlatMusicTiup(){
+    
+    }
+    @Override
     public void caraMemainkan(){
         System.out.println("Di Tiup");
     }
