@@ -9,6 +9,6 @@ package bab8;
  *
  * @author Prasetyo
  */
-public class Drum {
+public class Drum extends AlatMusicTabuh{
     
 }
