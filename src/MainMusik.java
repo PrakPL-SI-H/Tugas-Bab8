@@ -24,3 +24,25 @@ public class MainMusik {
             System.out.print("Masukkan pilihan Anda : ");
             pilihan = in.nextInt();
             System.out.println(" ");
+            switch (pilihan) {
+                case 1:
+                    for (int i = 0; i < 2; i++) {
+                        System.out.println("*********-----------*********");
+                        System.out.println("        ALAT MUSIK PETIK");
+                        System.out.println("*********-----------*********");
+                        System.out.println("1. Gitar");
+                        System.out.println("2. Bass");
+                        System.out.print("Masukkan pilihan Anda : ");
+                        pilih = in.nextInt();
+                        if (pilih == 1) {
+                            g.BahanAlat();
+                            g.Mainkan();
+                            g.SetelNada();
+                        } else {
+                            b.BahanAlat();
+                            b.Mainkan();
+                            b.SetelNada();
+                        }
+                    }
+                    System.out.println(" ");
+                    break;
