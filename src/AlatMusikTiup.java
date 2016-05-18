@@ -11,5 +11,16 @@ public class AlatMusikTiup {//pembuatan parent class untuk penentu cara main
         this.CaraPakai = CaraPakai;
     }
 
+    public String getNama() {
+        return Nama;
+    }
+
+    public String getCaraPakai() {
+        return CaraPakai;
+    }
+
+    public String getBahan() {
+        return Bahan;
+    }
 
 }
