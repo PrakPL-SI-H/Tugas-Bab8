@@ -1,6 +1,6 @@
 package Praktikum8;
 
-public class Tiup implements AlatMusik {
+public abstract class Tiup implements AlatMusik {
 
     @Override
     public void nada() {
