@@ -33,8 +33,6 @@ public class Main {
         System.out.println("\t====BAHTIAR'S STUDIO====");
         System.out.println("\t        ===EXIT===");
     }
-    public static void case1(){
-        
-    }
+    
     
 }
