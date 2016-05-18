@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package PraktikumBab8;
-
-/**
- *
- * @author Nofry
- */
 public interface AlatMusik {
-    
+    public void namaAlat();
+    public void caraBermain();
+    public void nadaDasar(String nada);
+    public void bahanAlat();
 }
