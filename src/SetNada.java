@@ -13,5 +13,17 @@ public class SetNada  { //parent class untuk SetNada(pengganti nada default)
       this.DoTinggi=DoTinggi;
   }
   public SetNada(){}
- 
+  public void showNada(){
+      System.out.println("\t===NADA TER-SET UNTUK "+Alat+"===");
+      System.out.println("\tNada Do Pada ="+Do);
+      System.out.println("\tNada Re Pada ="+Re);
+      System.out.println("\tNada Mi Pada ="+Mi);
+      System.out.println("\tNada Fa Pada ="+Fa);
+      System.out.println("\tNada So Pada ="+So);
+      System.out.println("\tNada La Pada ="+La);
+      System.out.println("\tNada Si Pada ="+Si);
+      System.out.println("\tNada DO Pada ="+Do);
+    
+}
+  
 }
