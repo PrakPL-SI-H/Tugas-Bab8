@@ -3,10 +3,11 @@ package mainalatmusik;
 public abstract class AlatMusikTiup implements AlatMusik {
 
     String nada;
-    String notasi;
 
+    @Override
     public abstract void tampilkanNada();
 
+    @Override
     public abstract void tampilkanMaterial();
 
 }
