@@ -46,3 +46,24 @@ public class MainMusik {
                     }
                     System.out.println(" ");
                     break;
+                case 2:
+                    for (int i = 0; i < 2; i++) {
+                        System.out.println("*********-----------*********");
+                        System.out.println("        ALAT MUSIK TIUP");
+                        System.out.println("*********-----------*********");
+                        System.out.println("1. Harmonika");
+                        System.out.println("2. Terompet");
+                        System.out.print("Masukkan pilihan Anda : ");
+                        pilih = in.nextInt();
+                        if (pilih == 1) {
+                            h.BahanAlat();
+                            h.Mainkan();
+                            h.SetelNada();
+                        } else {
+                            t.BahanAlat();
+                            t.Mainkan();
+                            t.SetelNada();
+                        }
+                    }
+                    System.out.println(" ");
+                    break;
