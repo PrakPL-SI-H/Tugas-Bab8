@@ -73,4 +73,19 @@ System.out.println("Cara memainkan  : " + cara);
 }
 }
 
+class Flute extends Tiup {
+private String bahan, cara;
+public Flute(String Bahan, String Cara, int nadaDasar) {
+this.bahan = Bahan;
+this.cara = Cara;
+super.setNadaDasar(nadaDasar);
+}
+@Override
+public void display(){
+System.out.println("FLUTE");
+System.out.println("Bahan alat      : " + bahan);
+System.out.println("Cara memainkan  : " + cara);
+}
+}
+
 
