@@ -88,3 +88,11 @@ public class MainMusik {
                     }
                     System.out.println(" ");
                     break;
+                case 4:
+                    break;
+                default:
+                    System.out.println("Pilihan Anda Tidak Tersedia");
+            }
+        } while (pilihan >= 1 && pilihan < 4);
+    }
+}
