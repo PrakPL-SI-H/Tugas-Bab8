@@ -8,19 +8,19 @@ public class Klarinet extends AlatMusikTiup {
 
     @Override
     public void tampilkanNada() {
-        if (this.nada == "do") {
+        if (nada == "do") {
             System.out.println("nada " + nada + " = kunci C");
-        } else if (this.nada == "re") {
+        } else if (nada == "re") {
             System.out.println("nada " + nada + " = kunci D");
-        } else if (this.nada == "mi") {
+        } else if (nada == "mi") {
             System.out.println("nada " + nada + " = kunci E");
-        } else if (this.nada == "fa") {
+        } else if (nada == "fa") {
             System.out.println("nada " + nada + " = kunci F");
-        } else if (this.nada == "so") {
+        } else if (nada == "so") {
             System.out.println("nada " + nada + " = kunci G");
-        } else if (this.nada == "la") {
+        } else if (nada == "la") {
             System.out.println("nada " + nada + " = kunci A");
-        } else if (this.nada == "si") {
+        } else if (nada == "si") {
             System.out.println("nada " + nada + " = kunci B");
         }
 

@@ -31,11 +31,13 @@ public class MainAlatMusik {
                 switch (pil) {
                     case 1:
                         for (;;) {
+                            System.out.println("");
                             System.out.println(">> MENU <<");
                             System.out.println("1. Coba Nada");
                             System.out.println("2. Lihat Material");
                             System.out.println("3. Keluar Program");
-                            System.out.println("Masukkan pilihan");
+                            System.out.print("Masukkan pilihan : ");
+                            pil = in.nextInt();
                             Saxofone a = new Saxofone();
                             switch (pil) {
                                 case 1:
@@ -43,7 +45,6 @@ public class MainAlatMusik {
                                     System.out.print("Masukkan salah satu nada diatas : ");
                                     nada = in.next();
                                     a.setNada(nada);
-                                    System.out.println(" >>Hasil << ");
                                     a.tampilkanNada();
                                     break;
                                 case 2:
@@ -62,7 +63,8 @@ public class MainAlatMusik {
                             System.out.println("1. Coba Nada");
                             System.out.println("2. Lihat Material");
                             System.out.println("3. Keluar Program");
-                            System.out.println("Masukkan pilihan");
+                            System.out.print("Masukkan pilihan : ");
+                            pil = in.nextInt();
                             Klarinet b = new Klarinet();
                             switch (pil) {
                                 case 1:
@@ -70,7 +72,6 @@ public class MainAlatMusik {
                                     System.out.print("Masukkan salah satu nada diatas : ");
                                     nada = in.next();
                                     b.setNada(nada);
-                                    System.out.println(" >>Hasil << ");
                                     b.tampilkanNada();
                                     break;
                                 case 2:
@@ -102,7 +103,8 @@ public class MainAlatMusik {
                             System.out.println("1. Coba Nada");
                             System.out.println("2. Lihat Material");
                             System.out.println("3. Keluar Program");
-                            System.out.println("Masukkan pilihan");
+                            System.out.print("Masukkan pilihan : ");
+                            pil = in.nextInt();
                             Gitar c = new Gitar();
                             switch (pil) {
                                 case 1:
@@ -110,7 +112,6 @@ public class MainAlatMusik {
                                     System.out.print("Masukkan salah satu nada diatas : ");
                                     nada = in.next();
                                     c.setNada(nada);
-                                    System.out.println(" >>Hasil << ");
                                     c.tampilkanNada();
                                     break;
                                 case 2:
@@ -129,15 +130,15 @@ public class MainAlatMusik {
                             System.out.println("1. Coba Nada");
                             System.out.println("2. Lihat Material");
                             System.out.println("3. Keluar Program");
-                            System.out.println("Masukkan pilihan");
+                            System.out.print("Masukkan pilihan :");
+                            pil = in.nextInt();
                             Bass d = new Bass();
                             switch (pil) {
                                 case 1:
                                     System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
                                     System.out.print("Masukkan salah satu nada diatas : ");
                                     nada = in.next();
-                                    d.setNada(nada);
-                                    System.out.println(" >>Hasil << ");
+                                    d.setNada(nada);                                 
                                     d.tampilkanNada();
                                     break;
                                 case 2:
