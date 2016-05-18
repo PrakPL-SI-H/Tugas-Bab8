@@ -11,4 +11,8 @@ public abstract class AlatMusikPetik implements AlatMusik{
     public void caraMain() {
         System.out.println("Dimainkan dengan cara dipetik.");
     }
+    public abstract String deskripsi();
+    public abstract String bahanAlat();
+    public abstract String nadaDasar();
+    public abstract void ketNadaDasar();
 }
