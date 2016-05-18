@@ -58,3 +58,19 @@ System.out.println(" |B | - |C#| - |D#| - |E | - |F# | - |G#| - |A#| - |B | ");b
 public abstract void display();
 }
 
+class Gitar extends Petik {
+private String bahan, cara;
+public Gitar(String Bahan, String Cara, int nadaDasar) {
+this.bahan = Bahan;
+this.cara = Cara;
+super.setNadaDasar(nadaDasar);
+}
+@Override
+public void display(){
+System.out.println("GITAR");
+System.out.println("Bahan alat      : " + bahan);
+System.out.println("Cara memainkan  : " + cara);
+}
+}
+
+
