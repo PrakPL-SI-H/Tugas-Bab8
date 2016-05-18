@@ -1,6 +1,6 @@
 public class SetNada  { //parent class untuk SetNada(pengganti nada default)
     private String Alat,Do,Re,Mi,Fa,So,La,Si,DoTinggi;
-    
+    //konstruktor baru
   public SetNada(String Alat,String Do,String Re,String Mi,String Fa,String So,String La,String Si,String DoTinggi) {
       this.Alat=Alat;
       this.Do=Do;
