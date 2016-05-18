@@ -1,5 +1,5 @@
 package Praktikum8;
 
-public class Sexophone {
+public class Sexophone extends Tiup {
     
 }
