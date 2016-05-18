@@ -20,4 +20,19 @@ public class Tuba extends AlatMusikTiup{
         System.out.println("Nada dasar Bmol merupakan nada dasar yang paling banyak digunakan.");
         System.out.println("Nada dasar bisa disesuaikan dengan lagu dan oleh pemusiknya.");       
     }
+    public void displayMessage(){
+        System.out.println("===============================================================================================================");
+        System.out.println("\t\t\t\t\t\t"+super.getNama());
+        System.out.println("===============================================================================================================");
+        System.out.println("Deskripsi\t: \n" + deskripsi());
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
+        System.out.println("Cara Memainkan\t: ");
+        super.caraMain();
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
+        System.out.println("Nada Dasar\t: Do = " + nadaDasar());
+        ketNadaDasar();
+        System.out.println("---------------------------------------------------------------------------------------------------------------");
+        System.out.println("Bahan Baku\t: \n" + bahanAlat());
+        System.out.println("===============================================================================================================");
+    }
 }
