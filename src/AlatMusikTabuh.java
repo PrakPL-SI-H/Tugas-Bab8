@@ -17,3 +17,9 @@ public class AlatMusikTabuh implements AlatMusik {
     public void BahanAlat() {
         System.out.println(getNama() + " terbuat dari bahan kayu dan kulit sapi");
     }
+    
+    @Override
+    public String getNama() {
+        return nama;
+    }
+}
