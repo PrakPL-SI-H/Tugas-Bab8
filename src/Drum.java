@@ -20,5 +20,15 @@ public class Drum extends AlatMusikPukul implements Musik {
 
     
 
-   
+    @Override
+    public void NadaDasar() {
+          System.out.println("NADA DASAR(DEFAULT)     :");
+        System.out.println("\tDo = C");
+        System.out.println("\tRe = D");
+        System.out.println("\tMi = E");
+        System.out.println("\tFa = F");
+        System.out.println("\tSol = G");
+        System.out.println("\tLa = A");
+        System.out.println("\tSi = B");
+    }
 }
