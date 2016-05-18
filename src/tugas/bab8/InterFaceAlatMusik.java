@@ -10,5 +10,9 @@ package Praktikum_Laporan8;
  * @author TEGAR
  */
 public interface InterFaceAlatMusik {
+    public void NamaAlat();
     
+    public void caraMemainkan();
+    
+     public void bunyi();
 }
