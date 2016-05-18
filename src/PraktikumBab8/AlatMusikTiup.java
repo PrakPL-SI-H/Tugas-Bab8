@@ -1,14 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package PraktikumBab8;
-
-/**
- *
- * @author Nofry
- */
-public class AlatMusikTiup {
-    
+public abstract class AlatMusikTiup implements AlatMusik {
+    @Override
+    public void caraBermain(){
+        System.out.println("Cara Bermainnya Dengan cara di Tiup..");
+    }
 }
