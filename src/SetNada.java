@@ -14,7 +14,7 @@ public class SetNada  { //parent class untuk SetNada(pengganti nada default)
   }
   public SetNada(){}
   public void showNada(){
-      System.out.println("\t===NADA TER-SET UNTUK "+Alat+"===");
+      System.out.println("===NADA TER-SET UNTUK "+Alat+"===");
       System.out.println("\tNada Do Pada ="+Do);
       System.out.println("\tNada Re Pada ="+Re);
       System.out.println("\tNada Mi Pada ="+Mi);
