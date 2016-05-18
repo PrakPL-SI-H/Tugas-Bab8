@@ -25,7 +25,36 @@ public class Main {
 
             pilihan = input.nextInt();
             System.out.println("");
-            
+            switch (pilihan) {
+                case 1:
+                    Sasando.showNama();
+                    Sasando.showBahan();
+                    Sasando.CaraPakai();
+                    Sasando.NadaDasar();
+                    System.out.println("");
+                    break;
+                case 2:
+                    Rebab.showNama();
+                    Rebab.showBahan();
+                    Rebab.CaraPakai();
+                    Rebab.NadaDasar();
+                    System.out.println("");
+                    break;
+                
+                    
+                    
+
+                case 0:
+
+                    System.out.println("\t====BAHTIAR'S STUDIO====");
+                    System.out.println("\t        ===EXIT===");
+
+                    System.exit(0);
+                    break;
+                default:
+                    System.out.println("Maaf Masukan Anda Salah..Coba Lagi..");
+                    System.out.println("");
+            }
             System.out.print("Apakah Anda Ingin Mengulang?(y/n):");
             ulang = input.next();
 
@@ -33,6 +62,5 @@ public class Main {
         System.out.println("\t====BAHTIAR'S STUDIO====");
         System.out.println("\t        ===EXIT===");
     }
-    
     
 }
