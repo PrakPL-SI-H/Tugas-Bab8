@@ -2,12 +2,17 @@
 import java.util.Scanner;
 
 public class Main {
+    /*@Nama :Istighfarin Bahtiar Amry
+       Nim  :155150401111129
+       Kelas:SI-H
+    */
 
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int pilihan;
         String ulang;
         String Alat,doo,re,mi,fa,so,la,si,dooo;
+        //inisialisasi objek baru 
         Sasando Sasando = new Sasando("Sasando", "Kayu", "Dipetik");
         Rebab Rebab = new Rebab("Rebab", "Kayu dan Tembaga", "Digesek");
         Harmonika Harmonika = new Harmonika("Harmonika", "Logam Besi", "Ditiup");
@@ -106,5 +111,5 @@ public class Main {
         System.out.println("\t====BAHTIAR'S STUDIO====");
         System.out.println("\t        ===EXIT===");
     }
-    
+//FIX
 }
