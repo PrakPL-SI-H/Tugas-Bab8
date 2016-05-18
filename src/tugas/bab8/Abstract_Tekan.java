@@ -10,5 +10,16 @@ package Praktikum_Laporan8;
  * @author TEGAR
  */
 public abstract class Abstract_Tekan implements InterFaceAlatMusik {
-    
-}
+ public void Abstrak_Tekan(){
+   
+     }
+     @Override
+     public void caraMemainkan(){
+
+       System.out.println("Dimainkan Dengan Cara Di Tekan");
+     }
+     @Override
+     public void NamaAlat(){}
+     @Override
+     public void bunyi(){}
+ }
