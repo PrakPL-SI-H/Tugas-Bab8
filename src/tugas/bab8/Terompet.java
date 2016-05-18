@@ -15,4 +15,8 @@ public class Terompet extends Tiup {
     public String bahan() {
         return "Logam";
     }
+        @Override
+        public String sebutanPemain(){
+        return "Trumpeter";
+    }
 }
