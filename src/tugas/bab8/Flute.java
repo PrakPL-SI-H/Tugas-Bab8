@@ -11,7 +11,7 @@ public class Flute extends Tiup {
 
     @Override
     public String bahan() {
-        return "Bambu";
+        return "Logam/Lapisan baja";
     }
     @Override
         public String sebutanPemain(){
