@@ -10,5 +10,16 @@ package Praktikum_Laporan8;
  * @author TEGAR
  */
 public abstract class Abstract_gesek implements InterFaceAlatMusik {
-    
-}
+  public void Abstrak_gesek(){
+   
+     }
+     @Override
+     public void caraMemainkan(){
+
+       System.out.println("Dimainkan Dengan Cara Di gesek");
+     }
+     @Override
+     public void NamaAlat(){}
+     @Override
+     public void bunyi(){}
+ }
