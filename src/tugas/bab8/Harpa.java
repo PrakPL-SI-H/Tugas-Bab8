@@ -15,4 +15,8 @@ public class Harpa extends Petik {
     public String bahan() {
         return "Kayu Cendana";
     }
+        @Override
+        public String sebutanPemain(){
+        return "Harpist";
+    }
 }
