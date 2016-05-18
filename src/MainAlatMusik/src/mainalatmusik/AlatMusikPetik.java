@@ -1,6 +1,5 @@
-
 package mainalatmusik;
 
-public abstract class AlatMusikPetik {
-    
+public abstract class AlatMusikPetik implements AlatMusik {
+
 }
