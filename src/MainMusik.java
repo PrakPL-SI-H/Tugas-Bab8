@@ -67,3 +67,24 @@ public class MainMusik {
                     }
                     System.out.println(" ");
                     break;
+                case 3:
+                    for (int i = 0; i < 2; i++) {
+                        System.out.println("*********-----------*********");
+                        System.out.println("        ALAT MUSIK TABUH");
+                        System.out.println("*********-----------*********");
+                        System.out.println("1. Gendang");
+                        System.out.println("2. Bedug");
+                        System.out.print("Masukkan pilihan Anda : ");
+                        pilih = in.nextInt();
+                        if (pilih == 1) {
+                            ge.BahanAlat();
+                            ge.Mainkan();
+                            ge.SetelNada();
+                        } else {
+                            be.BahanAlat();
+                            be.Mainkan();
+                            be.SetelNada();
+                        }
+                    }
+                    System.out.println(" ");
+                    break;
