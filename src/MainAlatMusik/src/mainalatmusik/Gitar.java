@@ -28,7 +28,7 @@ public class Gitar extends AlatMusikPetik {
 
     @Override
     public void tampilkanMaterial() {
-        System.out.println("Material dari Saxofone adalah Kuningan");
+        System.out.println("Material dari Saxofone adalah Kayu");
     }
 
 }

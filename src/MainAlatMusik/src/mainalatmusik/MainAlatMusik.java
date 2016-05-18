@@ -30,54 +30,58 @@ public class MainAlatMusik {
                 pil = in.nextInt();
                 switch (pil) {
                     case 1:
-                        System.out.println(">> MENU <<");
-                        System.out.println("1. Coba Nada");
-                        System.out.println("2. Lihat Material");
-                        System.out.println("3. Keluar Program");
-                        System.out.println("Masukkan pilihan");
-                        Saxofone a = new Saxofone();
-                        switch (pil) {
-                            case 1:
-                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
-                                System.out.print("Masukkan salah satu nada diatas : ");
-                                nada = in.next();
-                                a.setNada(nada);
-                                System.out.println(" >>Hasil << ");
-                                a.tampilkanNada();
-                                break;
-                            case 2:
-                                a.tampilkanMaterial();
-                                break;
-                            case 3:
-                                System.exit(0);
-                            default:
-                                System.out.println("Masukkan pilihan yang benar...");
-                                break;
+                        for (;;) {
+                            System.out.println(">> MENU <<");
+                            System.out.println("1. Coba Nada");
+                            System.out.println("2. Lihat Material");
+                            System.out.println("3. Keluar Program");
+                            System.out.println("Masukkan pilihan");
+                            Saxofone a = new Saxofone();
+                            switch (pil) {
+                                case 1:
+                                    System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                    System.out.print("Masukkan salah satu nada diatas : ");
+                                    nada = in.next();
+                                    a.setNada(nada);
+                                    System.out.println(" >>Hasil << ");
+                                    a.tampilkanNada();
+                                    break;
+                                case 2:
+                                    a.tampilkanMaterial();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                default:
+                                    System.out.println("Masukkan pilihan yang benar...");
+                                    break;
+                            }
                         }
                     case 2:
-                        System.out.println(">> MENU <<");
-                        System.out.println("1. Coba Nada");
-                        System.out.println("2. Lihat Material");
-                        System.out.println("3. Keluar Program");
-                        System.out.println("Masukkan pilihan");
-                        Klarinet b = new Klarinet();
-                        switch (pil) {
-                            case 1:
-                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
-                                System.out.print("Masukkan salah satu nada diatas : ");
-                                nada = in.next();
-                                b.setNada(nada);
-                                System.out.println(" >>Hasil << ");
-                                b.tampilkanNada();
-                                break;
-                            case 2:
-                                b.tampilkanMaterial();
-                                break;
-                            case 3:
-                                System.exit(0);
-                            default:
-                                System.out.println("Masukkan pilihan yang benar...");
-                                break;
+                        for (;;) {
+                            System.out.println(">> MENU <<");
+                            System.out.println("1. Coba Nada");
+                            System.out.println("2. Lihat Material");
+                            System.out.println("3. Keluar Program");
+                            System.out.println("Masukkan pilihan");
+                            Klarinet b = new Klarinet();
+                            switch (pil) {
+                                case 1:
+                                    System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                    System.out.print("Masukkan salah satu nada diatas : ");
+                                    nada = in.next();
+                                    b.setNada(nada);
+                                    System.out.println(" >>Hasil << ");
+                                    b.tampilkanNada();
+                                    break;
+                                case 2:
+                                    b.tampilkanMaterial();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                default:
+                                    System.out.println("Masukkan pilihan yang benar...");
+                                    break;
+                            }
                         }
                     default:
                         System.out.println("Masukkan pilihan yang benar...");
@@ -93,60 +97,65 @@ public class MainAlatMusik {
                 pil = in.nextInt();
                 switch (pil) {
                     case 1:
-                        System.out.println(">> MENU <<");
-                        System.out.println("1. Coba Nada");
-                        System.out.println("2. Lihat Material");
-                        System.out.println("3. Keluar Program");
-                        System.out.println("Masukkan pilihan");
-                        Gitar b = new Gitar();
-                        switch (pil) {
-                            case 1:
-                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
-                                System.out.print("Masukkan salah satu nada diatas : ");
-                                nada = in.next();
-                                b.setNada(nada);
-                                System.out.println(" >>Hasil << ");
-                                b.tampilkanNada();
-                                break;
-                            case 2:
-                                b.tampilkanMaterial();
-                                break;
-                            case 3:
-                                System.exit(0);
-                            default:
-                                System.out.println("Masukkan pilihan yang benar...");
-                                break;
+                        for (;;) {
+                            System.out.println(">> MENU <<");
+                            System.out.println("1. Coba Nada");
+                            System.out.println("2. Lihat Material");
+                            System.out.println("3. Keluar Program");
+                            System.out.println("Masukkan pilihan");
+                            Gitar c = new Gitar();
+                            switch (pil) {
+                                case 1:
+                                    System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                    System.out.print("Masukkan salah satu nada diatas : ");
+                                    nada = in.next();
+                                    c.setNada(nada);
+                                    System.out.println(" >>Hasil << ");
+                                    c.tampilkanNada();
+                                    break;
+                                case 2:
+                                    c.tampilkanMaterial();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                default:
+                                    System.out.println("Masukkan pilihan yang benar...");
+                                    break;
+                            }
                         }
                     case 2:
-                        System.out.println(">> MENU <<");
-                        System.out.println("1. Coba Nada");
-                        System.out.println("2. Lihat Material");
-                        System.out.println("3. Keluar Program");
-                        System.out.println("Masukkan pilihan");
-                        Klarinet b = new Klarinet();
-                        switch (pil) {
-                            case 1:
-                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
-                                System.out.print("Masukkan salah satu nada diatas : ");
-                                nada = in.next();
-                                b.setNada(nada);
-                                System.out.println(" >>Hasil << ");
-                                b.tampilkanNada();
-                                break;
-                            case 2:
-                                b.tampilkanMaterial();
-                                break;
-                            case 3:
-                                System.exit(0);
-                            default:
-                                System.out.println("Masukkan pilihan yang benar...");
-                                break;
+                        for (;;) {
+                            System.out.println(">> MENU <<");
+                            System.out.println("1. Coba Nada");
+                            System.out.println("2. Lihat Material");
+                            System.out.println("3. Keluar Program");
+                            System.out.println("Masukkan pilihan");
+                            Bass d = new Bass();
+                            switch (pil) {
+                                case 1:
+                                    System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                    System.out.print("Masukkan salah satu nada diatas : ");
+                                    nada = in.next();
+                                    d.setNada(nada);
+                                    System.out.println(" >>Hasil << ");
+                                    d.tampilkanNada();
+                                    break;
+                                case 2:
+                                    d.tampilkanMaterial();
+                                    break;
+                                case 3:
+                                    System.exit(0);
+                                default:
+                                    System.out.println("Masukkan pilihan yang benar...");
+                                    break;
+                            }
                         }
                     default:
                         System.out.println("Masukkan pilihan yang benar...");
                         break;
 
-        }
+                }
 
+        }
     }
 }

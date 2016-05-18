@@ -1,6 +1,6 @@
 package mainalatmusik;
 
-public class Klarinet extends AlatMusikTiup {
+public class Bass extends AlatMusikPetik {
 
     public void setNada(String nada) {
         this.nada = nada;
@@ -28,6 +28,7 @@ public class Klarinet extends AlatMusikTiup {
 
     @Override
     public void tampilkanMaterial() {
-        System.out.println("Material dari Saxofone adalah Keramik");
+        System.out.println("Material dari Saxofone adalah Kayu");
     }
+
 }
