@@ -8,20 +8,31 @@ public class Gitar extends AlatMusikPetik {
 
     @Override
     public void tampilkanNada() {
-        if (this.nada == "do") {
-            System.out.println("nada " + nada + " = kunci C");
-        } else if (this.nada == "re") {
-            System.out.println("nada " + nada + " = kunci D");
-        } else if (this.nada == "mi") {
-            System.out.println("nada " + nada + " = kunci E");
-        } else if (this.nada == "fa") {
-            System.out.println("nada " + nada + " = kunci F");
-        } else if (this.nada == "so") {
-            System.out.println("nada " + nada + " = kunci G");
-        } else if (this.nada == "la") {
-            System.out.println("nada " + nada + " = kunci A");
-        } else if (this.nada == "si") {
-            System.out.println("nada " + nada + " = kunci B");
+        switch (nada) {
+            case "do":
+                System.out.println("nada " + nada + " = kunci C");
+                break;
+            case "re":
+                System.out.println("nada " + nada + " = kunci D");
+                break;
+            case "mi":
+                System.out.println("nada " + nada + " = kunci E");
+                break;
+            case "fa":
+                System.out.println("nada " + nada + " = kunci F");
+                break;
+            case "so":
+                System.out.println("nada " + nada + " = kunci G");
+                break;
+            case "la":
+                System.out.println("nada " + nada + " = kunci A");
+                break;
+            case "si":
+                System.out.println("nada " + nada + " = kunci B");
+                break;
+            default:
+                System.out.println("Nada " + nada + " tidak ada");
+                break;
         }
 
     }

@@ -31,7 +31,7 @@ public class Saxofone extends AlatMusikTiup {
                 System.out.println("nada " + nada + " = kunci B");
                 break;
             default:
-                System.out.println("Nada "+nada+" tidak ada");
+                System.out.println("Nada " + nada + " tidak ada");
                 break;
         }
 
