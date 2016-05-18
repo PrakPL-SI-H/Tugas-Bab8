@@ -28,8 +28,57 @@ public class MainAlatMusik {
                 System.out.println("");
                 System.out.print("Pilih Alat Musik : ");
                 pil = in.nextInt();
+                switch (pil) {
+                    case 1:
+                        System.out.println(">> MENU <<");
+                        System.out.println("1. Coba Nada");
+                        System.out.println("2. Lihat Material");
+                        System.out.println("3. Keluar Program");
+                        System.out.println("Masukkan pilihan");
+                        Saxofone a = new Saxofone();
+                        switch (pil) {
+                            case 1:
+                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                System.out.print("Masukkan salah satu nada diatas : ");
+                                nada = in.next();
+                                a.setNada(nada);
+                                a.tampilkanNada();
+                                break;
+                            case 2:
+                                a.tampilkanMaterial();
+                                break;
+                            case 3:
+                                System.exit(0);
+                            default:
+                                System.out.println("Masukkan pilihan yang benar...");
+                        }
+                    case 2:
+                        System.out.println(">> MENU <<");
+                        System.out.println("1. Coba Nada");
+                        System.out.println("2. Lihat Material");
+                        System.out.println("3. Keluar Program");
+                        System.out.println("Masukkan pilihan");
+                        Klarinet b = new Saxofone();
+                        switch (pil) {
+                            case 1:
+                                System.out.println("Contoh nada : do , re, mi , fa , so, la , si");
+                                System.out.print("Masukkan salah satu nada diatas : ");
+                                nada = in.next();
+                                b.setNada(nada);
+                                b.tampilkanNada();
+                                break;
+                            case 2:
+                                b.tampilkanMaterial();
+                                break;
+                            case 3:
+                                System.exit(0);
+                            default:
+                                System.out.println("Masukkan pilihan yang benar...");
+                        }
+                    default:
+                        System.out.println("Masukkan pilihan yang benar...");
+                }
+
         }
 
     }
-
-}
