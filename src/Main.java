@@ -61,7 +61,33 @@ public class Main {
                     Drum.NadaDasar();
                     System.out.println("");
                     break;
-                
+                case 6:
+                    SetNada nada=new SetNada();
+                    System.out.println("===Meng-Set Nada Alat Musik===");
+                    System.out.print("Alat Apa Yang Ingin Di-set :");
+                    Alat=input.next();
+                    System.out.print("Nada Do Anda Set Ke- :");
+                    doo=input.next();
+                    System.out.print("Nada Re Anda Set Ke- :");
+                    re=input.next();
+                    System.out.print("Nada Mi Anda Set Ke- :");
+                    mi=input.next();
+                    System.out.print("Nada Fa Anda Set Ke- :");
+                    fa=input.next();
+                    System.out.print("Nada So Anda Set Ke- :");
+                    so=input.next();
+                    System.out.print("Nada La Anda Set Ke- :");
+                    la=input.next();
+                    System.out.print("Nada Si Anda Set Ke- :");
+                    si=input.next();
+                    System.out.print("Nada Doo Anda Set Ke- :");
+                    dooo=input.next();
+                    SetNada setnada=new SetNada(Alat,doo,re,mi,fa,so,la,si,dooo);
+                    System.out.println("================================");
+                    setnada.showNada();break;
+                    
+                    
+
                 case 0:
 
                     System.out.println("\t====BAHTIAR'S STUDIO====");
