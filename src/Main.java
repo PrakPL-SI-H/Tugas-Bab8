@@ -40,10 +40,28 @@ public class Main {
                     Rebab.NadaDasar();
                     System.out.println("");
                     break;
+                case 3:
+                    Harmonika.showNama();
+                    Harmonika.showBahan();
+                    Harmonika.CaraPakai();
+                    Harmonika.NadaDasar();
+                    System.out.println("");
+                    break;
+                case 4:
+                    Seruling.showNama();
+                    Seruling.showBahan();
+                    Seruling.CaraPakai();
+                    Seruling.NadaDasar();
+                    System.out.println("");
+                    break;
+                case 5:
+                    Drum.showNama();
+                    Drum.showBahan();
+                    Drum.CaraPakai();
+                    Drum.NadaDasar();
+                    System.out.println("");
+                    break;
                 
-                    
-                    
-
                 case 0:
 
                     System.out.println("\t====BAHTIAR'S STUDIO====");
