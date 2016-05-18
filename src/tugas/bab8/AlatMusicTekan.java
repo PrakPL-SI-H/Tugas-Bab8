@@ -9,6 +9,5 @@ public abstract class AlatMusicTekan implements InterfaceAlatMusic{
     @Override
     public void NamaAlatMusic(){}
     @Override
-    public void berbunyi(){}
-    
+    public void berbunyi(){}    
 }
