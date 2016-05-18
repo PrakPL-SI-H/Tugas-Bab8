@@ -12,7 +12,7 @@ public abstract class Abstrak_Petik implements InterFaceAlatMusik{
      @Override
      public void caraMemainkan(){
         
-        System.out.println("Memainkan Dengan Cara Di Petik");
+        System.out.println("Alat ini dimainkan Dengan Cara Di Petik");
      }
      @Override
      public void NamaAlat(){}
