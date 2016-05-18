@@ -1,4 +1,3 @@
-
 package mainalatmusik;
 public class Harpa extends Petik {
 

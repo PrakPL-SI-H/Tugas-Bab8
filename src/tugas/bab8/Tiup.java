@@ -1,16 +1,18 @@
-
 package mainalatmusik;
 public abstract class Tiup implements alatMusik {
     private String nama;
-public Tiup(String nama) {
-this.nama = nama;
+    public Tiup(String nama) {
+        this.nama = nama;
     }
-public String getNama() {
+
+    public String getNama() {
         return nama;
     }
-    public String caraBermain(){
+
+    public String caraBermain() {
         return "Di Tiup";
     }
+
     public abstract String nada();
     public abstract String bahan();
 }
