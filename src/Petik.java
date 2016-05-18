@@ -6,6 +6,7 @@ public abstract class Petik implements AlatMusik {
     public void nada() {
         System.out.println("");
     }
+    
     @Override
     public void bahan(){
         System.out.println("");
