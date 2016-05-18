@@ -20,5 +20,15 @@ public class Sasando extends AlatMusikPetik implements Musik {
         System.out.println("Dimainkan dengan cara   :" + super.getCaraPakai());
     }
 
-    
+    @Override
+    public void NadaDasar() {
+          System.out.println("NADA DASAR(DEFAULT)     :");
+        System.out.println("\tDo = C");
+        System.out.println("\tRe = D");
+        System.out.println("\tMi = E");
+        System.out.println("\tFa = F");
+        System.out.println("\tSol = G");
+        System.out.println("\tLa = A");
+        System.out.println("\tSi = B");
+    }
 }
