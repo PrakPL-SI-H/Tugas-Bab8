@@ -1,5 +1,4 @@
 package mainalatmusik;
-
 public class Gitar extends Petik {
 
     public Gitar(String nama) {
@@ -14,5 +13,9 @@ public class Gitar extends Petik {
     @Override
     public String bahan() {
         return "Kayu";
+    }
+        @Override
+        public String sebutanPemain(){
+        return "Gitaris";
     }
 }
