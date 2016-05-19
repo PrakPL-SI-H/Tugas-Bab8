@@ -14,7 +14,7 @@ public class Main {
         masuk = in.nextInt();
             if (masuk == 1) {
                 Gitar ini = new Gitar();
-                System.out.print("Masukkan Tangga Nada Dasar = ");
+                System.out.print("Masukkan Tangga Nada Dasar (Pilihan : do, re, mi, fa, sol, la, si, doo) = ");
                 ini.nada= in.next();
                 ini.nama();
                 ini.bahan();
