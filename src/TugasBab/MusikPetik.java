@@ -1,14 +1,24 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package TugasBab;
 
-/**
- *
- * @author faris
- */
-public class MusikPetik {
+public abstract class MusikPetik implements AlatMusik {
+
+    private String Bahan, Jenis, Nada;
+
+    public MusikPetik(String Bahan, String Jenis, String Nada) {
+        this.Bahan = Bahan;
+        this.Jenis = Jenis;
+        this.Jenis = Nada;
+    }
     
+    public void getBahan(){
+        System.out.println("Bahan \t\t: " + Bahan);
+    }
+    
+    public void getJenis(){
+        System.out.println("Jenis \t\t: " + Jenis);
+    } 
+    
+    public void getNada(){
+        System.out.println("Nada \t\t : " + Nada);
+    }
 }

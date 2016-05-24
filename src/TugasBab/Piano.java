@@ -1,25 +1,29 @@
-
 package TugasBab;
 
-public abstract class MusikKetuk implements AlatMusik {
+public class Piano extends MusikPencet {
 
     private String Bahan, Jenis, Nada;
 
-    public MusikKetuk(String Bahan, String Jenis, String Nada) {
+    public Piano(String Bahan, String Jenis, String Nada) {
+        super(Bahan, Jenis, Nada);
         this.Bahan = Bahan;
         this.Jenis = Jenis;
         this.Jenis = Nada;
     }
-    
-    public void getBahan(){
+
+    @Override
+    public void setBahan() {
         System.out.println("Bahan \t\t: " + Bahan);
     }
-    
-    public void getJenis(){
+
+    @Override
+    public void setJenis() {
         System.out.println("Jenis \t\t: " + Jenis);
-    } 
-    
-    public void getNada(){
+    }
+
+    @Override
+    public void setNada() {
         System.out.println("Nada \t\t : " + Nada);
     }
+
 }
